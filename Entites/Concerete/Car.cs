@@ -1,0 +1,17 @@
+﻿using Entites.Abstract;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Entites.Concerete
+{
+    public class Car: IEntitiy
+    {
+        public int CarId { get; set; }
+        public int BrandId { get; set; }
+        public int ColorId{ get; set; }
+        public int ModelYear { get; set; }
+        public  double DilyPrice{ get; set; }// günlük fiyat
+        public string Description { get; set; } // açıklama
+    }
+}
