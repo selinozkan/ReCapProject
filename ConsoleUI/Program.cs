@@ -23,7 +23,6 @@ namespace ConsoleUI
                 Console.WriteLine(b.BrandName);
             }
 
-
         }
     }
 }
