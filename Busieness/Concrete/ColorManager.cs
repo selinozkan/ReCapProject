@@ -28,12 +28,9 @@ namespace Busieness.Concrete
 
         public List<Color> GetAll()
         {
-            throw new NotImplementedException();
+            return _colorDal.GetAll();
         }
 
-        public void Update(Color color)
-        {
-            throw new NotImplementedException();
-        }
+     
     }
 }

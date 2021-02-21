@@ -40,9 +40,6 @@ namespace Busieness.Concrete
            
         }
 
-        public void Update(Car car)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }

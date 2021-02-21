@@ -10,7 +10,7 @@ namespace Busieness.Abstract
         List<Car> GetAll();
         void Add(Car car);
         void Delete(Car car);
-        void Update(Car car); 
+       
     }
     
 }

@@ -46,9 +46,7 @@ namespace Busieness.Concrete
             return _brandDal.Get(c => c.BrandId == id);
         }
 
-        public void Update(Brand brand)
-        {
-            throw new NotImplementedException();
-        }
+ 
+        
     }
 }

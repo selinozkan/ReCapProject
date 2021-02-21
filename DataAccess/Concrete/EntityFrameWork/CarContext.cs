@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Concrete.EntiyFrameWork
+namespace DataAccess.Concrete.EntityFrameWork
 {
     public class CarContext
     {
