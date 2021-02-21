@@ -9,14 +9,17 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            ColorTest();
+
+        }
+
+        private static void ColorTest()
+        {
             ColorManager colorManager = new ColorManager(new EfColorDal());
-            foreach(var d in colorManager.GetColorDetailDtos())
+            foreach (var d in colorManager.GetColorDetailDtos())
             {
-                Console.WriteLine(d.Descriptions+ "   "+ d.ColorName);
+                Console.WriteLine(d.Descriptions + "   " + d.ColorName);
             }
-
-
-
         }
 
         private static void BradTest()
