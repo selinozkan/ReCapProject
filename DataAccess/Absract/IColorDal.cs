@@ -1,5 +1,6 @@
 ﻿using Core.DataAccess;
 using Entites.Concerete;
+using Entites.DTOs;
 using System;
 using System.Collections.Generic;
 
@@ -9,5 +10,6 @@ namespace DataAccess.Absract
 {
     public   interface IColorDal :IEntityRepository<Color> 
     {
+        List<ColorDetailDto> GetColorDetailDtos();
     }
 }

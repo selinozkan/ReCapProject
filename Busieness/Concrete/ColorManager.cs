@@ -1,6 +1,7 @@
 ﻿using Busieness.Abstract;
 using DataAccess.Absract;
 using Entites.Concerete;
+using Entites.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -31,6 +32,9 @@ namespace Busieness.Concrete
             return _colorDal.GetAll();
         }
 
-     
+        public List<ColorDetailDto> GetColorDetailDtos()
+        {
+            return _colorDal.GetColorDetailDtos();
+        }
     }
 }

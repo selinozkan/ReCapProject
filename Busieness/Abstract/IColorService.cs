@@ -1,4 +1,5 @@
 ﻿using Entites.Concerete;
+using Entites.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,7 +12,7 @@ namespace Busieness.Abstract
       
         void Delete(Color color);
         List<Color> GetAll();
-
+        List<ColorDetailDto> GetColorDetailDtos();
 
 
     }

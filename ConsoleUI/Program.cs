@@ -10,9 +10,9 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             ColorManager colorManager = new ColorManager(new EfColorDal());
-            foreach(var d in colorManager.GetAll())
+            foreach(var d in colorManager.GetColorDetailDtos())
             {
-                Console.WriteLine(d.ColorName);
+                Console.WriteLine(d.Descriptions+ "   "+ d.ColorName);
             }
 
 
